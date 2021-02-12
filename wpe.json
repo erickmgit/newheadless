@@ -1,0 +1,18 @@
+{
+  "name": "My-1st-Headless-App",
+  "repo": "erickmgit/newheadless",
+  "region": "US-C",
+  "environments": [
+    {
+      "name": "Production",
+      "branch": "main",
+      "wp_environment_name": "http://erickheadless.wpengine.com",
+      "env_variables": [
+        {
+          "key": "WP_URL",
+          "value": "http://erickheadless.wpengine.com"
+        }
+      ]
+    }
+  ]
+}
